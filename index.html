@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .wrapper{
+            width: 100vw;
+            overflow-x: hidden;
+            height: 100vh;
+            background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/c38a2d52-138e-48a3-ab68-36787ece46b3/eeb03fc9-99c6-438e-824d-32917ce55783/IN-en-20240101-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+            background-size: contain;
+            position: relative;
+
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            background-color: rgba(0, 0, 0, 0.5)
+           
+
+
+        }
+        button{
+            background-color: #e50815;
+            border-radius: 5px;
+            height: 40px;
+            width: 100px;
+            border: solid #e50815;
+            color: white;
+            font-weight: bold;
+            font-size: medium;
+            
+        }
+        
+        .lang{
+            width: 120px;
+            height: 40px;
+            border: 2px solid grey;
+            color: white;
+            font-weight: bold;
+            padding-top:8px;
+            text-align: center;
+            border-radius: 5px;
+            background-color: rgba(0, 0, 0, 0.5)
+            
+           
+        }
+        .hero{
+            color: white;
+
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            padding-left: 90px;
+            padding-right: 90px;
+
+
+        }
+        .hero{
+            height:80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+
+        }
+        .btn{
+            display: flex;
+            align-items: end;
+            justify-content: center;
+            display: flex;
+           align-items: center;
+           gap: 20px;
+        }
+        h1{
+            font-size: 50px;
+        }
+        p{
+            font-size: 25px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <nav>
+                <img src="https://imgs.search.brave.com/wgBHIIfgssVBtfwYC227BBTnm530qhqvzVGm1YSiFgg/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMubmZseGV4dC5j/b20vZmZlL3NpdGV1/aS9hY3F1aXNpdGlv/bi9ob21lL25mbHhs/b2dvLnBuZw" alt="">
+                <div class="btn">
+                    <div class="lang">
+                        English
+
+
+                    </div>
+                    <button>
+                        Sign in
+                    </button>
+                </div>
+
+
+            </nav>
+            <div class="hero">
+                <h1>
+                    Laughter. Tears. Thrills. Find it all on Netflix.</h1>
+                    <p>Endless entertainment starts at just ₹149. Cancel anytime.
+
+                    </p>
+                    <p>Ready to watch? Enter your email to create or restart your membership.
+                    </p>
+
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>
